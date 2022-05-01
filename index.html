@@ -8,8 +8,18 @@
     <title>Forms</title>
   </head>
   <body>
-    <div class="userinfo">
+    <!-- სარეგისტრაციო ფორმა -->
+    <div class="userinfo usermodal">
       <form>
+        <label for="firstname">
+          <input type="text" name="firstname" placeholder="შიყვანეთ სახელი" />
+        </label>
+        <label for="surname">
+          <input type="text" name="surname" placeholder="შეიყვანეთ გვარი" />
+        </label>
+        <label for="email">
+          <input type="email" name="email" placeholder="შეიყვანეთ ელ. ფოსტა" />
+        </label>
         <label for="personal-number">
           <input
             type="number"
@@ -27,8 +37,12 @@
         <label for="position">
           <input type="text" name="position" placeholder="შეიყვანეთ პოზიცია" />
         </label>
+        <button class="submitbtn" type="submit" >Submit</button>
       </form>
+      
     </div>
+    <!-- ////// -->
+
     <script src="js/main.js"></script>
   </body>
 </html>

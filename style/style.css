@@ -3,10 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-input{
-    display: flex;
-    width: 300px;
-    margin: 20px 30px;
-    padding: 5px 5px;
-    border-color: rgb(35, 203, 26);
+input {
+  display: flex;
+  width: 300px;
+  margin: 20px 30px;
+  padding: 5px 5px;
+  border-color: rgb(35, 203, 26);
+  color: rgb(79, 48, 213);
+}
+button {
+  margin: 20px 30px;
+  padding: 5px 5px;
+  background-color: rgb(144, 187, 142);
 }

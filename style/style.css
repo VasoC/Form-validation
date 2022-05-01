@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: rgb(144, 170, 170);
+}
 input {
   display: flex;
   width: 300px;
@@ -14,5 +17,5 @@ input {
 button {
   margin: 20px 30px;
   padding: 5px 5px;
-  background-color: rgb(144, 187, 142);
+  background-color: rgb(95, 145, 91);
 }

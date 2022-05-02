@@ -26,6 +26,9 @@ button {
   outline: none;
   border: 1px solid #e3e3e3;
 }
-p{
+p {
   margin: 20px 30px;
+}
+.errortext {
+  color: red;
 }

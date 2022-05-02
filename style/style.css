@@ -11,11 +11,21 @@ input {
   width: 300px;
   margin: 20px 30px;
   padding: 5px 5px;
-  border-color: rgb(35, 203, 26);
+  /* border-color: rgb(35, 203, 26); */
   color: rgb(79, 48, 213);
 }
 button {
   margin: 20px 30px;
   padding: 5px 5px;
   background-color: rgb(95, 145, 91);
+}
+.has-error {
+  border: 1px solid red;
+}
+.userinformation {
+  outline: none;
+  border: 1px solid #e3e3e3;
+}
+p{
+  margin: 20px 30px;
 }

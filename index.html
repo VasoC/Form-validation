@@ -13,6 +13,7 @@
       <form id="userinformation" method="post" action="vaso.ge">
         <label for="email">
           <input type="email" name="email" placeholder="შეიყვანეთ ელ. ფოსტა" />
+          <p class="errortext"></p>
         </label>
         <label for="personal-number">
           <input
@@ -20,6 +21,7 @@
             name="personal-number"
             placeholder="შეიყვანეთ პირადი ნომერი"
           />
+          <p class="errortext"></p>
         </label>
         <label for="mobile-number">
           <input
@@ -27,9 +29,11 @@
             name="mobile-number"
             placeholder="შეიყვანეთ მობ. ნომერი"
           />
+          <p class="errortext"></p>
         </label>
         <label for="position">
           <input type="text" name="position" placeholder="შეიყვანეთ პოზიცია" />
+          <p class="errortext"></p>
         </label>
         <button class="submitbtn" type="submit">Submit</button>
       </form>
